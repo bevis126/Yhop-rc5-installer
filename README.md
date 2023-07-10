@@ -37,6 +37,11 @@
 
 ![image](https://github.com/bevis126/Yhop-rc5-installer/assets/27944125/ad365187-873a-4427-8999-c9c5445a98c1)
 
+> ***然后再选择：安装运维客户端***
+
+![image](https://github.com/bevis126/Yhop-rc5-installer/assets/27944125/0c03e46c-c383-4cfa-9b33-3ed7cfed2300)
+
+
 
 
 > ***确认信息是否正确，如果正确按Y继续安装***
