@@ -52,6 +52,32 @@
 
 ![image](https://github.com/bevis126/Yhop-rc5-installer/assets/27944125/58c06bfe-104e-4e96-91b5-e10042daea83)
 
-
 - ### ****可以返回主页面检查服务与网络，或者直接退出****
 - ### ****其他服务器也是相同操作****
+
+# 欧拉系统小坑：
+
+- ### ****欧拉系统安装数据库，缺少动态库****
+
+> ***到数据库目录下执行 init.sh***
+
+![b7d853046bcf3d080602185b3cd9a77](https://github.com/bevis126/Yhop-rc5-installer/assets/27944125/a015dd57-bebc-4c83-98be-0aa3d009046a)
+
+
+![image](https://github.com/bevis126/Yhop-rc5-installer/assets/27944125/b3464dc6-4bb8-43e8-8e27-3a89289aad3d)
+
+
+> ***缺少 libtinfo.so.5 和 libncurses.so.5 这两个文件***
+
+![image](https://github.com/bevis126/Yhop-rc5-installer/assets/27944125/116aa14b-bfe8-4a0d-9cc9-f272b600f4fb)
+
+> ***执行如下命令：***
+> 
+> ***cd /usr/lib64***
+> 
+> ***ln -s libncurses.so.6 libncurses.so.5***
+> 
+> ***ln -s libtinfo.so.6 libtinfo.so.5***
+
+
+- ### ****再执行./init.sh****
